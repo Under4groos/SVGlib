@@ -1,0 +1,8 @@
+C:\Users\UnderKo\source\repos\SVGlib\SVGlib\obj\Debug\SVGlib.csproj.AssemblyReference.cache
+C:\Users\UnderKo\source\repos\SVGlib\SVGlib\obj\Debug\SVGlib.csproj.CoreCompileInputs.cache
+C:\Users\UnderKo\source\repos\SVGlib\SVGlib\bin\Debug\SVGlib.dll
+C:\Users\UnderKo\source\repos\SVGlib\SVGlib\bin\Debug\SVGlib.pdb
+C:\Users\UnderKo\source\repos\SVGlib\SVGlib\obj\Debug\SVGlib.dll
+C:\Users\UnderKo\source\repos\SVGlib\SVGlib\obj\Debug\SVGlib.pdb
+C:\Users\UnderKo\source\repos\SVGlib\SVGlib\obj\Debug\SVGlib.Properties.Resource1.resources
+C:\Users\UnderKo\source\repos\SVGlib\SVGlib\obj\Debug\SVGlib.csproj.GenerateResource.cache

@@ -1,0 +1,11 @@
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\bin\Debug\TestConsoleSVG.exe.config
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\bin\Debug\TestConsoleSVG.exe
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\bin\Debug\TestConsoleSVG.pdb
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\bin\Debug\SVGlib.dll
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\bin\Debug\SVGlib.pdb
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\obj\Debug\TestConsoleSVG.csproj.AssemblyReference.cache
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\obj\Debug\TestConsoleSVG.csproj.SuggestedBindingRedirects.cache
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\obj\Debug\TestConsoleSVG.csproj.CoreCompileInputs.cache
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\obj\Debug\TestConsoleSVG.csproj.CopyComplete
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\obj\Debug\TestConsoleSVG.exe
+C:\Users\UnderKo\source\repos\SVGlib\TestConsoleSVG\obj\Debug\TestConsoleSVG.pdb
