@@ -1,4 +1,3 @@
-C:\Users\UnderKo\source\repos\SVGlib\SVGlib\obj\Debug\SVGlib.csproj.AssemblyReference.cache
 C:\Users\UnderKo\source\repos\SVGlib\SVGlib\obj\Debug\SVGlib.csproj.CoreCompileInputs.cache
 C:\Users\UnderKo\source\repos\SVGlib\SVGlib\bin\Debug\SVGlib.dll
 C:\Users\UnderKo\source\repos\SVGlib\SVGlib\bin\Debug\SVGlib.pdb
