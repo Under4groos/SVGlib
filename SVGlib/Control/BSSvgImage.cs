@@ -22,14 +22,21 @@ namespace SVGlib.Control
             this.Child = grid;
             #region event s
 
-            this.SizeChanged += BSSvgImage_SizeChanged;
+            this.SizeChanged += (o,e) =>
+            {
+                ResizeSvg();
+            };
+            #region hide 
+            //this.Loaded += (o, e) =>
+            //{
+            //    if (Source == string.Empty)
+            //        return;
+            //    SetSvgString();
+            //};
+            #endregion
             #endregion
         }
 
-        private void BSSvgImage_SizeChanged(object sender, SizeChangedEventArgs e)
-        {
-            ResizeSvg();
-        }
 
         public string Source
         {
@@ -54,7 +61,15 @@ namespace SVGlib.Control
                 return;
 
             Content = File.ReadAllText(path);
+            if (Content == string.Empty)
+                return;
+            SetSvgString();
 
+
+        }
+
+        public void SetSvgString()
+        {
             parser.OpenSVGString(Content);
             parser.Parse();
             grid.Children.Clear();
@@ -65,18 +80,23 @@ namespace SVGlib.Control
 
                 path_svg.Data = Geometry.Parse(svg.d);
                 path_svg.Fill = Brushes.White;
-                path_svg.PathResize(this.Width, this.Height);
-                 
+
+                path_svg.SnapsToDevicePixels = true;
+
                 grid.Children.Add(path_svg);
             }
+            ResizeSvg();
         }
+
         public void ResizeSvg()
         {
             foreach (System.Windows.Shapes.Path path_svg in grid.Children)
             {
+                
+
                 double w_ = parser.BASESVG.width.To();
                 double h_ = parser.BASESVG.height.To();
-                path_svg.PathResize(this.Width / w_, this.Height / h_);
+                path_svg.PathResize(this.ActualWidth / w_, this.ActualHeight / h_);
             }
         }
     }
